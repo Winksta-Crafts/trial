@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    transition: 2s;
+    font-size: 15px;
+}
+body{
+    background-color: teal;
+    position: fixed;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: pink;
+    height: 50px;
+    margin-top: 10px;
+}
+div{
+    position: fixed;
+    width: 95%;
+    left: 2.5%;
+    background-color: #6fadff;
+    top: 80px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-table;
+}
+
+.video{
+    position: relative;
+    top: 0;
+    width: 45%;
+    height: 190px;
+    background-color: rebeccapurple;
+    margin: 5px;
+}
+
+#picture{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+footer{
+    width: 80%;
+    position: fixed;
+    background-color: pink;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 10px;
+    margin-left: 10%;
+}
